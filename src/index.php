@@ -1,7 +1,4 @@
 <!DOCTYPE html>
-<?php
-echo "abc";
-?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
