@@ -1,0 +1,44 @@
+.description-enter {
+    opacity: 0.01;
+    height: 0;
+}
+.description-enter-active {
+    opacity: 1;
+    height: 200px;
+    transition: opacity 400ms, height 800ms ease-out;
+}
+.description-enter-done {
+    height: 200px;
+}
+.description-exit {
+    opacity: 1;
+    height: 200px;
+}
+.description-exit-active {
+    opacity: 0.01;
+    height: 0;
+    transition: opacity 400ms, height 800ms ease-out;
+}
+
+.skill-item-enter {
+    opacity: 0.01;
+    width: 0% !important;
+}
+.skill-item-enter-active {
+    opacity: 1;
+    width: 15% !important;
+    transition: all 800ms;
+}
+.skill-item-enter-done {
+    width: 15% !important;
+}
+.skill-item-exit {
+    opacity: 1;
+    width: 15% !important;
+}
+.skill-item-exit-active {
+    opacity: 0.01;
+    width: 0% !important;
+    transition: all 800ms;
+}
+
